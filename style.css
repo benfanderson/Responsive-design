@@ -1,0 +1,53 @@
+.poem{
+  font-size: 1em;
+    width: 97%;
+}
+
+footer{
+  padding: 5px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: right;
+}
+
+/*View for tablets*/
+@media (min-width:479px) {
+    h1{
+      font-size: 4em;
+    }
+
+    .trio{
+      width:45%;
+      display: inline-block;
+
+    }
+    .poem{
+      font-size: 1.2em;
+    }
+
+    .side{
+      margin-right: 9%;
+    }
+}
+
+/*View for desktop*/
+@media (min-width:800px) {
+    .trio{
+      width: 100%;
+    }
+
+    .poem{
+      /*font-size: 1.5em;*/
+      width:25%;
+      display: inline-block;
+    }
+
+    .middle{
+      margin: 0 12%;
+    }
+
+    .container{
+      width: 1000px;
+      margin:auto;
+    }
+}
